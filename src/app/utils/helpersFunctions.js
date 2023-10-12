@@ -1,6 +1,6 @@
 "use client";
 
-export const debounce = (func) => {
+export const debouncew = (func) => {
   let timer;
   return function (...args) {
     const context = this;
